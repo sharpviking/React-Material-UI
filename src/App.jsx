@@ -5,6 +5,7 @@ import Button from "@mui/material/Button";
 import "./App.css";
 import RatingDemo from "./RatingDemo";
 import FormDemo from "./Formdemo";
+import { AppBar } from "@mui/material";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </Button>
       <RatingDemo />
       <FormDemo />
+      <AppBar />
     </div>
   );
 }
